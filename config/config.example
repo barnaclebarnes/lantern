@@ -1,0 +1,9 @@
+lighthouse:
+  account: <Lighthouse account name>
+  token: <insert token from Lighthouse>
+  project: <Lighthouse Project Number>
+basecamp:
+  account: <accountname.projectpath.com>
+  user: <Basecamp user name>
+  password:  <Basecamp Password>
+  project: <Basecamp Project Number>

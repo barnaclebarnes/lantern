@@ -1,0 +1,17 @@
+SETUP
+=====
+- Copy config/config.example to config/config.yml
+- Edit the file and insert your login details for Basecamp and Lighthouse
+- Create config/milestones.yml
+- Add the milestones from Basecamp and Lighthouse (This process should really be automated...) 
+  You can put an ignore: true on any milestone that you want lantern to ignore from checking. 
+
+USING LANTERN
+=============
+- Run 'ruby lantern.rb' and it will sync Basecamp Milestones -> Lighthouse Milestones. 
+- if you change a Milestone completed date in Basecamp just rerun the script and it will update Lighthouse
+
+TODO
+====
+- Automate the discovery of Milestones and the creating of milestones.yml
+- Allow syncing of Basecamp -> Lighthouse or Lighthouse -> Basecamp
